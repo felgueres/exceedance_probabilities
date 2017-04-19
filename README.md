@@ -1,4 +1,4 @@
-# Applied Statistics in Solar Energy: Invest on P90.
+# Applied Statistics in Solar Energy: Why invest on P90?
 
 This post goes through the underpinnings of Exceedance Probabilities and the benefit solar energy developers and enthusiasts alike stand by knowing the basics.
 
@@ -94,26 +94,26 @@ Take our hypothetical plant and dataset, there are 18 years, 18 production value
 Each value constitutes an equal contribution of the total probability or 1 / 18.
 Since the distribution is cumulative, we want to sort the values (lowest to highest), and do a cumulative sum of the total contribution at each consecutive data point. The procedure is shown below:
 
-Energy Output [GWh]| Prob  |cumsum
-------------------:|------:|------:
-              16.62|0.05556|0.05556
-              17.29|0.05556|0.11111
-              17.41|0.05556|0.16667
-              17.49|0.05556|0.22222
-              17.60|0.05556|0.27778
-              17.66|0.05556|0.33333
-              17.71|0.05556|0.38889
-              17.87|0.05556|0.44444
-              17.87|0.05556|0.50000
-              17.94|0.05556|0.55556
-              17.95|0.05556|0.61111
-              17.96|0.05556|0.66667
-              18.03|0.05556|0.72222
-              18.12|0.05556|0.77778
-              18.15|0.05556|0.83333
-              18.28|0.05556|0.88889
-              18.38|0.05556|0.94444
-              18.39|0.05556|1.00000
+|Energy Output [GWh]| Prob  |cumsum
+|------------------:|------:|------:
+|              16.62|0.05556|0.05556
+|              17.29|0.05556|0.11111
+|              17.41|0.05556|0.16667
+|              17.49|0.05556|0.22222
+|              17.60|0.05556|0.27778
+|              17.66|0.05556|0.33333
+|              17.71|0.05556|0.38889
+|              17.87|0.05556|0.44444
+|              17.87|0.05556|0.50000
+|              17.94|0.05556|0.55556
+|              17.95|0.05556|0.61111
+|              17.96|0.05556|0.66667
+|              18.03|0.05556|0.72222
+|              18.12|0.05556|0.77778
+|              18.15|0.05556|0.83333
+|              18.28|0.05556|0.88889
+|              18.38|0.05556|0.94444
+|              18.39|0.05556|1.00000
 
 With that, we are ready to plot.
 
